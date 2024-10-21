@@ -149,6 +149,10 @@ TRUE
     : 'True'
     ;
 
+VOID
+    : 'void'
+    ;
+
 // Operators and punctuators
 
 OPEN_BRACE
