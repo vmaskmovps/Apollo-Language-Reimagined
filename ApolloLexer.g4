@@ -121,6 +121,10 @@ PRINT
     : 'print'
     ;
 
+RETURN
+    : 'return'
+    ;
+
 SET
     : 'set'
     ;
