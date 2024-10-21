@@ -25,7 +25,7 @@ WHITESPACES
     : (Whitespace | Newline)+ -> channel(HIDDEN)
     ;
 
-ATTRIBUTE_START
+ANNOTATION_START
     : '@' IDENTIFIER OPEN_BRACE -> pushMode(ANNOTATION_MODE)
     ;
 
